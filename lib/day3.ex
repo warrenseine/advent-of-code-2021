@@ -81,23 +81,3 @@ defmodule Day3 do
     end
   end
 end
-
-test_input = """
-00100
-11110
-10110
-10111
-10101
-01111
-00111
-11100
-10000
-11001
-00010
-01010
-"""
-
-real_input = File.read!("day3.txt")
-
-IO.puts(Day3.part1(real_input))
-IO.puts(Day3.part2(real_input))
