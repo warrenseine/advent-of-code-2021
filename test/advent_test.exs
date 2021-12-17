@@ -18,6 +18,7 @@ defmodule AdventTest do
     260
     263
     """
+
     real_input = File.read!("test/day1.txt")
 
     IO.puts(Day1.part1(test_input))
