@@ -106,4 +106,54 @@ defmodule AdventTest do
     IO.puts(Day4.part1(real_input))
     IO.puts(Day4.part2(real_input))
   end
+
+  @tag :skip
+  test "Day5" do
+    test_input = """
+    0,9 -> 5,9
+    8,0 -> 0,8
+    9,4 -> 3,4
+    2,2 -> 2,1
+    7,0 -> 7,4
+    6,4 -> 2,0
+    0,9 -> 2,9
+    3,4 -> 1,4
+    0,0 -> 8,8
+    5,5 -> 8,2
+    """
+
+    real_input = File.read!("test/day5.txt")
+
+    IO.puts(Day5.part1(test_input))
+    IO.puts(Day5.part2(test_input))
+
+    IO.puts(Day5.part1(real_input))
+    IO.puts(Day5.part2(real_input))
+  end
+
+  @tag :skip
+  test "Day6" do
+    test_input = "3,4,3,1,2"
+
+    real_input = File.read!("test/day6.txt")
+
+    IO.puts(Day6.part1(test_input))
+    IO.puts(Day6.part2(test_input))
+
+    IO.puts(Day6.part1(real_input))
+    IO.puts(Day6.part2(real_input))
+  end
+
+  @tag :skip
+  test "Day7" do
+    test_input = "16,1,2,0,4,2,7,1,2,14"
+
+    real_input = File.read!("test/day7.txt")
+
+    IO.puts(Day7.part1(test_input))
+    IO.puts(Day7.part2(test_input))
+
+    IO.puts(Day7.part1(real_input))
+    IO.puts(Day7.part2(real_input))
+  end
 end
